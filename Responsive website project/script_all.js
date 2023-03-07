@@ -1,5 +1,7 @@
 //API key and URLs for fetching news articles
-const apiKey = "51e997fa85c04c298cfa08a63a2977d3";
+
+//Insert your own api key bellow:
+const apiKey = "";
 const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 const searchURLString = "https://newsapi.org/v2/everything?q=";
 
